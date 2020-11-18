@@ -1,5 +1,9 @@
+:root {
+  --turing-primary: #12f1fc;
+}
+
 h1 {
-  color: red;
+  color: var(--turing-primary);
 }
 
 button {
