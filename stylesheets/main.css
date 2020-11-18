@@ -1,11 +1,35 @@
 :root {
+  /* COLORS */
   --turing-primary: #12f1fc;
+  --turing-primary-dark: #036575;
+
+
+  /* FONT SIZES */
+  --para-400: 14px;
+  --para-500: 16px;
+  --heading-500: 32px;
+
+  --round-corners: 50px;
+
 }
 
-h1 {
-  color: var(--turing-primary);
+.cta-button {
+  background-color: var(--turing-primary);
+  color: var(--turing-primary-dark);
+  border-radius: var(--round-corners);
+  font-size: var(--para-400);
+  text-transform: uppercase;
+  line-height: 17px;
+  letter-spacing: 0.5px;
+  padding: 18px 40px 12px;
+  border: none;
+  font-family: 'helvetica neue bold', sans-serif;
 }
 
 button {
   background: magenta;
 }
+
+/* QUESTIONS: */
+/* Where do the fonts come from? in Jekyll sites they are currently being served from local asset file */
+/* Does every Jekyll project need those or can Savile provide that? */
