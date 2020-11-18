@@ -1,3 +1,7 @@
+---
+# Main style files. Everything else is located in _sass.
+---
+
 :root {
   /* COLORS */
   --turing-primary: #12f1fc;
@@ -33,3 +37,6 @@ button {
 /* QUESTIONS: */
 /* Where do the fonts come from? in Jekyll sites they are currently being served from local asset file */
 /* Does every Jekyll project need those or can Savile provide that? */
+
+/* When you import CSS files, is a new HTTP request being made for each import? Is that ok? */
+/* should we use SCSS to eliminate that issue? but still use CSS vars so they are available in projects that use this? */
